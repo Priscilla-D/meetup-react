@@ -22,7 +22,8 @@ function NewMeetupForm(props) {
       address: enteredAdress,
       description: enteredDescription,
     };
-    console.log(meetupData);
+    
+    props.onAddMeetup(meetupData);
   }
   return (
     <Card>

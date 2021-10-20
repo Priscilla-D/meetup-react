@@ -13,13 +13,13 @@ function NewMeetupForm(props) {
 
     const enteredTitle = titleInputRef.current.value;
     const enteredImage = imageInputref.current.value;
-    const enteredAdress = addressInputref.current.value;
+    const enteredAddress = addressInputref.current.value;
     const enteredDescription = descriptionInputref.current.value;
 
     const meetupData = {
       title: enteredTitle,
       image: enteredImage,
-      address: enteredAdress,
+      address: enteredAddress,
       description: enteredDescription,
     };
     
